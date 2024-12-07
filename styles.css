@@ -35,7 +35,16 @@ nav {
     position: fixed;
     width: 100%;
     z-index: 100;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.link {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
 }
 
 .logo {
