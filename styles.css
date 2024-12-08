@@ -23,7 +23,7 @@ body {
 
 header {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url('https://images.unsplash.com/photo-1498837167922-ddd27525d352') center/cover;
+                url('assets/food1.jpg') center/cover;
     height: 100vh;
     color: white;
 }
@@ -38,6 +38,14 @@ nav {
     background: rgba(0, 0, 0, 0.8);
 }
 
+.myriam {
+    float: left;
+    max-width: 256px;
+    margin-top: 0.5em;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+}
+
 .link {
     color: var(--text-color);
     text-decoration: none;
@@ -45,6 +53,10 @@ nav {
 
 .link:hover {
     text-decoration: underline;
+}
+
+.story p {
+    margin-bottom: 1.4em;
 }
 
 .logo {
