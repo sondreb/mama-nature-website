@@ -3,6 +3,8 @@
     --secondary-color: #7D8F69;
     --text-color: #333;
     --light-bg: #F7F7F7;
+    --accent-color: #A3B18A;
+    --highlight-color: #DAD7CD;
 }
 
 * {
@@ -19,6 +21,7 @@ body {
     font-family: 'Poppins', sans-serif;
     color: var(--text-color);
     line-height: 1.6;
+    background-color: var(--highlight-color);
 }
 
 header {
@@ -137,6 +140,14 @@ footer {
     padding: 1rem;
 }
 
+.testimonial {
+    background: var(--light-bg);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 @media (max-width: 768px) {
     .nav-links {
         display: none;
@@ -144,5 +155,19 @@ footer {
     
     .hero h1 {
         font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    .menu-item {
+        padding: 1.5rem;
+    }
+
+    .testimonial {
+        padding: 1rem;
     }
 }
