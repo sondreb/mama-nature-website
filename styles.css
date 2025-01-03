@@ -68,6 +68,13 @@ nav {
   font-size: 1.8rem;
 }
 
+.logo a {
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+  transition: color 0.3s;
+}
+
 .nav-links a {
   color: white;
   text-decoration: none;
@@ -137,16 +144,16 @@ h3 {
 }
 
 .card {
-    background: var(--light-bg);
-    padding: 3em;
-    border-radius: 15px;
-    transition: transform 0.3s;
-    margin-bottom: 1em;
-  }
-  
-  .card:hover {
-    transform: translateY(-5px);
-  }
+  background: var(--light-bg);
+  padding: 3em;
+  border-radius: 15px;
+  transition: transform 0.3s;
+  margin-bottom: 1em;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
 
 .contact-info {
   text-align: center;
