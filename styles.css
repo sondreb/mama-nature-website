@@ -42,6 +42,14 @@ nav {
   background: rgba(0, 0, 0, 0.8);
 }
 
+a {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 .myriam {
   float: left;
   max-width: 256px;
@@ -84,11 +92,16 @@ nav {
   margin-top: 5em;
   height: 60vh;
   filter: invert(100%);
+
 }
 
 .logo-large-dark {
   margin-top: 5em;
   height: 60vh;
+}
+
+.nav-links {
+  align-self: center;
 }
 
 .nav-links a {
