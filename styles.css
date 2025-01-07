@@ -97,7 +97,7 @@ a:hover {
 }
 
 .logo-large-dark {
-  margin-top: 5em;
+  margin-top: 1em;
   height: 60vh;
 }
 
@@ -215,6 +215,7 @@ footer {
   border-radius: 10px;
   margin-bottom: 1.5rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-style: italic;
 }
 
 @media (max-width: 768px) {
