@@ -56,6 +56,7 @@ a:hover {
   margin-top: 0.5em;
   margin-right: 1em;
   margin-bottom: 0.5em;
+  border-radius: 25px;
 }
 
 .link {
@@ -182,6 +183,7 @@ h3 {
   object-fit: cover;
   object-position: center;
   overflow: hidden;
+  border-radius: 25px;
 }
 .card {
   background: var(--light-bg);
