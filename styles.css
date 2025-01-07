@@ -35,7 +35,7 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem 5%;
+  padding: 1rem 5%;
   position: fixed;
   width: 100%;
   z-index: 100;
@@ -132,7 +132,7 @@ a:hover {
 }
 
 section {
-  padding: 2.5rem 0;
+  padding: 3.8rem 0 1.5rem 0;
 }
 
 .container {
