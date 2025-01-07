@@ -218,6 +218,15 @@ footer {
   font-style: italic;
 }
 
+.social a i, .opening-hours i {
+    margin-right: 5px;
+}
+
+.social a:hover i {
+    transform: scale(1.2);
+    transition: transform 0.2s;
+}
+
 @media (max-width: 768px) {
   .nav-links {
     display: none;
