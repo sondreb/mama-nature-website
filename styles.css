@@ -38,8 +38,9 @@ nav {
   padding: 1rem 5%;
   position: fixed;
   width: 100%;
-  z-index: 900;  /* Increased to be above everything */
+  z-index: 10000;
   background: rgba(0, 0, 0, 0.8);
+  align-items: center;
 }
 
 a {
@@ -233,10 +234,8 @@ footer {
     border: none;
     cursor: pointer;
     padding: 0;
-    position: fixed;
-    top: 1rem;
-    right: 1rem;
-    z-index: 9999;
+    position: relative;
+    z-index: inherit;
 }
 
 .hamburger span {
@@ -256,7 +255,7 @@ footer {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.95);
-    z-index: 9998;      /* Just below hamburger */
+    z-index: 9999;
 }
 
 .mobile-menu.active {
