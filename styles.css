@@ -38,7 +38,7 @@ nav {
   padding: 1rem 5%;
   position: fixed;
   width: 100%;
-  z-index: 100;
+  z-index: 900;  /* Increased to be above everything */
   background: rgba(0, 0, 0, 0.8);
 }
 
@@ -227,6 +227,69 @@ footer {
     transition: transform 0.2s;
 }
 
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 9999;
+}
+
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px 0;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+.mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    z-index: 9998;      /* Just below hamburger */
+}
+
+.mobile-menu.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-menu-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.mobile-menu-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+}
+
 @media (max-width: 768px) {
   .nav-links {
     display: none;
@@ -234,6 +297,11 @@ footer {
 
   .hero h1 {
     font-size: 2.5rem;
+  }
+
+  .hamburger {
+    display: block;
+    margin-right: 1rem;
   }
 }
 
