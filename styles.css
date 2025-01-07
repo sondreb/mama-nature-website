@@ -27,7 +27,7 @@ body {
 
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("assets/food1.jpg") center/cover;
+    url("assets/food4.jpg") center/cover;
   height: 100vh;
   color: white;
 }
@@ -73,6 +73,22 @@ nav {
   text-decoration: none;
   margin-left: 2rem;
   transition: color 0.3s;
+}
+
+.logo-icon {
+  height: 56px;
+  filter: invert(100%);
+}
+
+.logo-large {
+  margin-top: 5em;
+  height: 60vh;
+  filter: invert(100%);
+}
+
+.logo-large-dark {
+  margin-top: 5em;
+  height: 60vh;
 }
 
 .nav-links a {
