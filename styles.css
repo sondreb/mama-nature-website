@@ -131,13 +131,17 @@ a:hover {
 }
 
 section {
-  padding: 5rem 0;
+  padding: 2.5rem 0;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
+}
+
+.centered {
+  text-align: center;
 }
 
 h2 {
@@ -172,6 +176,13 @@ h3 {
   transform: translateY(-5px);
 }
 
+.menu-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
 .card {
   background: var(--light-bg);
   padding: 3em;
