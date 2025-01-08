@@ -18,10 +18,14 @@ mobileMenuLinks.forEach(link => {
 
 // Carousel functionality
 document.addEventListener('DOMContentLoaded', function() {
+  const carousel = document.querySelector('.carousel');
   const images = document.querySelectorAll('.carousel-image');
   const prevButton = document.querySelector('.carousel-button.prev');
   const nextButton = document.querySelector('.carousel-button.next');
   let currentImageIndex = 0;
+  let touchStartX = 0;
+  let touchEndX = 0;
+  let autoAdvanceTimer;
 
   function showImage(index) {
     images.forEach(img => img.classList.remove('active'));
@@ -31,16 +35,46 @@ document.addEventListener('DOMContentLoaded', function() {
   function nextImage() {
     currentImageIndex = (currentImageIndex + 1) % images.length;
     showImage(currentImageIndex);
+    resetTimer();
   }
 
   function prevImage() {
     currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
     showImage(currentImageIndex);
+    resetTimer();
+  }
+
+  function resetTimer() {
+    clearInterval(autoAdvanceTimer);
+    autoAdvanceTimer = setInterval(nextImage, 5000);
+  }
+
+  // Touch events
+  carousel.addEventListener('touchstart', (e) => {
+    touchStartX = e.touches[0].clientX;
+  });
+
+  carousel.addEventListener('touchend', (e) => {
+    touchEndX = e.changedTouches[0].clientX;
+    handleSwipe();
+  });
+
+  function handleSwipe() {
+    const swipeThreshold = 50;
+    const difference = touchStartX - touchEndX;
+
+    if (Math.abs(difference) > swipeThreshold) {
+      if (difference > 0) {
+        nextImage();
+      } else {
+        prevImage();
+      }
+    }
   }
 
   prevButton.addEventListener('click', prevImage);
   nextButton.addEventListener('click', nextImage);
 
-  // Auto advance every 5 seconds
-  setInterval(nextImage, 5000);
+  // Initialize the auto-advance timer
+  resetTimer();
 });
