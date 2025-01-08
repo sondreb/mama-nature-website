@@ -312,6 +312,51 @@ footer {
 .stagger.appear > *:nth-child(2) { transition-delay: 0.2s; }
 .stagger.appear > *:nth-child(3) { transition-delay: 0.4s; }
 
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-image {
+  width: 100%;
+  display: none;
+  object-fit: cover;
+  aspect-ratio: 16/12;  /* Changed from 16/10 to 16/12 for even taller images */
+  max-height: 800px;    /* Increased from 600px to 800px */
+}
+
+.carousel-image.active {
+  display: block;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.carousel-button.prev {
+  left: 0;
+}
+
+.carousel-button.next {
+  right: 0;
+}
+
 @media (max-width: 768px) {
   .nav-links {
     display: none;
