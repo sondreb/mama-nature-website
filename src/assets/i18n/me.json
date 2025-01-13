@@ -1,0 +1,150 @@
+{
+  "header": {
+    "nav": {
+      "menu": "Meni",
+      "jobs": "Poslovi",
+      "about": "O nama",
+      "contact": "Lokacija",
+      "instagram": "Instagram"
+    },
+    "hero": {
+      "welcome": "Dobrodošli u Mama Nature",
+      "description": "Organski restoran na bazi biljaka pored Jadranskog mora (privremeno zatvoren)"
+    }
+  },
+  "menu": {
+    "title": "Današnje specijalitete",
+    "description": "Svaki dan imamo nešto novo na meniju. Današnje toplo i današnje sirovo su posebna jela koja se svakodnevno mijenjaju.",
+    "items": {
+      "warm": "Današnje toplo",
+      "raw": "Današnje sirovo",
+      "drink": "Današnje piće",
+      "porridge": "Kaša",
+      "desserts": "Deserti",
+      "shakes": "Šejkovi",
+      "superfood_latte": "Superfood latte",
+      "juice": "Sokovi",
+      "hot_drinks": "Topli napici",
+      "coffee": "Kafa",
+      "herbal_teas": "Lokalni biljni čajevi",
+      "tea_blends": "Mješavine čajeva",
+      "homemade_products": "Domaći proizvodi",
+      "raw_vegan": "Sve sirovo, vegansko, bez glutena, bez šećera, 100% organsko"
+    }
+  },
+  "carousel": {
+    "title": "Foto galerija"
+  },
+  "testimonials": {
+    "title": "Izjave kupaca",
+    "items": [
+      {
+        "text": "“Sirovi kolači su bili užitak; pahuljasti i sočni. Sve u svemu, preporučujem posjetu Mama Nature za njihove ukusne kolače i izvanredan sok od breskve.”",
+        "author": "Ludvig"
+      },
+      {
+        "text": "“Najbolje mjesto za dobar organski obrok, s nevjerojatnom osobom koja kuha za vas.”",
+        "author": "Geoffrey TOUCHE"
+      },
+      {
+        "text": "“Odlična hrana - visoka kvaliteta i odličan okus. Atmosfera je također jedinstvena, vrlo mirna i 'neturistička' na dobar način.”",
+        "author": "Kaya"
+      },
+      {
+        "text": "“Apsolutno nevjerojatno mjesto za jesti! Takvo olakšanje pronaći ga ovdje, u Baru. Ukusna hrana, ugodna muzika i atmosfera, sve je savršeno. Želim im svu sreću❤️”",
+        "author": "Алиса Пашпекина"
+      },
+      {
+        "text": "“Potpuno sam impresioniran uslugom, atmosferom, hrana je najbolja koju sam ikada probao 👌🌱😋”",
+        "author": "Nataša Vukićević"
+      }
+    ]
+  },
+  "jobs": {
+    "title": "Otvorena radna mjesta",
+    "description": "Imamo dva otvorena radna mjesta: <strong>Kuvar zdrave biljne hrane</strong> i <strong>Pomoćnik u restoranu</strong><br /><br />",
+    "positions": [
+      {
+        "title": "Pozicija: Kuvar zdrave biljne hrane",
+        "responsibilities": [
+          "Dnevna priprema hrane i pića",
+          "Upravljanje zalihama",
+          "Prezentacija i dekoracija hrane",
+          "Cijene i označavanje",
+          "Upravljanje menijem"
+        ],
+        "profile": {
+          "title": "Potrebni profil",
+          "items": [
+            "Zdrav način života na bazi biljaka",
+            "Iskustvo u pripremi biljne hrane, zdrave veganske i sirove hrane",
+            "Organizacione vještine u kuhinji",
+            "Dvojezičnost: engleski i crnogorski (dodatni plus za ruski)"
+          ]
+        }
+      },
+      {
+        "title": "Pozicija: Pomoćnik u restoranu",
+        "responsibilities": [
+          "Održavanje restorana",
+          "Pomoć u upravljanju zalihama i pripremi sastojaka za meni",
+          "Pomoć u pripremi pića i domaćih proizvoda",
+          "Pomoć u određivanju cijena i označavanju artikala u prodavnici",
+          "Interno dnevno upravljanje računovodstvom"
+        ],
+        "profile": {
+          "title": "Potrebni profil",
+          "items": [
+            "Iskustvo u održavanju domaćinstva",
+            "Organizacione vještine",
+            "Zdrav vegan ili etički vegetarijanac",
+            "Osnovno iskustvo u pripremi biljne hrane i pića",
+            "Osnovne računovodstvene vještine",
+            "Dvojezičnost: engleski i crnogorski (dodatni plus za ruski)"
+          ]
+        }
+      }
+    ],
+    "why_work_with_us": {
+      "title": "Zašto raditi s nama?",
+      "items": [
+        "Da nam pomognete da Bar postane zdraviji i svjesniji grad",
+        "Da inspirišete ljude da donose bolje odluke za svoje zdravlje i životnu sredinu",
+        "Da edukujete i podižete svijest o važnosti biljne ishrane",
+        "Da podsjetite ljude šta je prava hrana i naša povezanost s Majkom Zemljom"
+      ]
+    },
+    "about_company": {
+      "title": "O našoj kompaniji",
+      "description": [
+        "Mama Nature je organski restoran na bazi biljaka i prodavnica koja nudi visokokvalitetnu ukusnu hranu i pića napravljena od cjelovitih, neprerađenih, bezglutenskih i bez šećera sastojaka. Cilj nam je biti što lokalniji, sezonski i ekološki prihvatljiviji.",
+        "Misija Mama Nature je ponuditi i podsjetiti ljude na pravu hranu i našu povezanost s Majkom Prirodom, okupiti svjesnu zajednicu oko zdravlja i dobrobiti, i inspirisati ljude da donose bolje odluke za sebe i za životnu sredinu.",
+        "Rad u Mama Nature nije za svakoga. Potrebni su nam pojedinci koji imaju besprijekoran integritet, istinoljubivost, zdrave životne vrijednosti, rastući način razmišljanja, uslužni način razmišljanja, koji su fokusirani na rješenja i koji imaju veliku sposobnost da prolaze kroz izazove i probleme na pozitivan način.",
+        "Ako mislite da biste mogli biti odgovarajući:",
+        "Pošaljite svoj CV na <a href=\"mailto:mama.nature.mne@gmail.com\">mama.nature.mne&#64;gmail.com</a>"
+      ]
+    }
+  },
+  "about": {
+    "title": "Naša priča",
+    "description": [
+      "U srcu Bara, Crna Gora, Mama Nature donosi iscjeljujuću i hranljivu kuhinju na bazi biljaka. Slavimo bogatstvo prirode s lokalno uzgojenim organskim sastojcima i svjesnim kuvanjem.",
+      "Naša kuvarica Myriam Bakhti, poznata i kao Raw Mama Nature, godinama je držala online radionice o gurmanskoj sirovoj biljnoj kuhinji i autor je knjiga kao što su 'Jednostavni recepti za početnike', 'Knjiga o sirovom veganskom hlebu' i 'Slatki život'.",
+      "Myriam je odlučila da je vrijeme da otvori restoran gdje može podijeliti svoju strast za zdravom hranom sa svijetom.",
+      "Ako već uživate u biljnoj kuhinji ili ste radoznali da probate, rado ćemo kuhati za vas.",
+      "U Mama Nature nudimo razne usluge kako bismo poboljšali vaše iskustvo objedovanja. Od privatnih večera do usluga keteringa, tu smo da vaše posebne prilike učinimo nezaboravnim. Naš tim je posvećen pružanju izuzetne usluge i stvaranju tople i gostoljubive atmosfere za sve naše goste."
+    ]
+  },
+  "contact": {
+    "title": "Posjetite nas",
+    "info": [
+      "<a class=\"link\" href=\"https://maps.app.goo.gl/bDuU5szrQWwG9WfV7\" target=\"_blank\"><i class=\"fas fa-map-marker-alt\"></i> Maršala Tita, Bar 85000, Crna Gora</a>",
+      "<i class=\"far fa-clock\"></i> Uto-Ned: 09:00 - 18:00 (PRIVREMENO ZATVORENO!)",
+      "<a class=\"link\" href=\"mailto:mama.nature.mne@gmail.com\" target=\"_blank\"><i class=\"fa fa-envelope\"></i> Pošaljite nam e-mail</a>",
+      "<a class=\"link\" href=\"https://www.instagram.com/mama.nature.mne/\" target=\"_blank\"><i class=\"fab fa-instagram\"></i> Pratite nas na Instagramu</a>"
+    ]
+  },
+  "footer": {
+    "text": "&copy; 2024-2025 Mama Nature | Organski restoran na bazi biljaka"
+  }
+}

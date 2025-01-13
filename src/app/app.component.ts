@@ -1,5 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -15,7 +16,7 @@ export class AppComponent implements OnInit, OnDestroy {
   private touchStartX: number = 0;
   private touchEndX: number = 0;
 
-  constructor() {
+  constructor(private translate: TranslateService) {
     const appearOptions: IntersectionObserverInit = {
       threshold: 0.1,
       rootMargin: "0px 0px -40px 0px"
@@ -28,9 +29,15 @@ export class AppComponent implements OnInit, OnDestroy {
         observer.unobserve(entry.target);
       });
     }, appearOptions);
+
+    translate.addLangs(['en', 'me', 'ru', 'no']);
+    translate.setDefaultLang('en');
   }
 
   ngOnInit(): void {
+    const browserLang = this.translate.getBrowserLang();
+    this.setLanguage(browserLang.match(/en|me|ru|no/) ? browserLang : 'en');
+
     const faders = document.querySelectorAll<HTMLElement>(".fade-in");
     const staggerElements = document.querySelectorAll<HTMLElement>(".stagger");
 
@@ -51,6 +58,10 @@ export class AppComponent implements OnInit, OnDestroy {
       clearInterval(this.autoAdvanceTimer);
     }
     this.appearOnScroll.disconnect();
+  }
+
+  setLanguage(lang: string): void {
+    this.translate.use(lang);
   }
 
   private initializeMobileMenu(): void {

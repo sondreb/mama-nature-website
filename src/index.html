@@ -51,5 +51,17 @@
   </head>
   <body>
     <app-root></app-root>
+    <select id="language-selector">
+      <option value="en">English</option>
+      <option value="me">Montenegrin</option>
+      <option value="ru">Russian</option>
+      <option value="no">Norwegian</option>
+    </select>
+    <script>
+      document.getElementById('language-selector').addEventListener('change', function() {
+        const selectedLang = this.value;
+        window.location.href = `/${selectedLang}`;
+      });
+    </script>
   </body>
 </html>
