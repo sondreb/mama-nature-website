@@ -1,0 +1,150 @@
+{
+  "header": {
+    "nav": {
+      "menu": "Menu",
+      "jobs": "Jobs",
+      "about": "About",
+      "contact": "Location",
+      "instagram": "Instagram"
+    },
+    "hero": {
+      "welcome": "Welcome to Mama Nature",
+      "description": "Organic Plant-based Restaurant by the Adriatic Sea(temporarily closed)"
+    }
+  },
+  "menu": {
+    "title": "Today's Specials",
+    "description": "We have something new on the menu every day. Today's Warm/Toplo and Today's Raw/Sirov are special dishes that change daily.",
+    "items": {
+      "warm": "Today's Warm/Toplo",
+      "raw": "Today's Raw/Sirov",
+      "drink": "Today's Drink/Piće",
+      "porridge": "Porridge / Kaša",
+      "desserts": "Desserts /Pustinje",
+      "shakes": "Shakes / Šejk",
+      "superfood_latte": "Superfood Latte",
+      "juice": "Juice /Sokovi",
+      "hot_drinks": "Hot Drinks / Topli Napici",
+      "coffee": "Coffee / Kafa",
+      "herbal_teas": "Local Herbal Teas / Lokalni biljni čajevi.",
+      "tea_blends": "Tea Blends / Mješavine čajeva.",
+      "homemade_products": "Home Made Products",
+      "raw_vegan": "All Raw, Vegan, Gluten-free, Sugar-free, 100% Organic"
+    }
+  },
+  "carousel": {
+    "title": "Photo Gallery"
+  },
+  "testimonials": {
+    "title": "Customer Testimonials",
+    "items": [
+      {
+        "text": "“The raw cakes were enjoyable; fluffy and juicy. Overall, I recommend visiting Mama Nature for their delicious cakes and exceptional peach juice.”",
+        "author": "Ludvig"
+      },
+      {
+        "text": "“Just the best place to have a good organic meal, with an amazing human being who cooked for you.”",
+        "author": "Geoffrey TOUCHE"
+      },
+      {
+        "text": "“Great food - high quality and great taste. The atmosphere is also unique, very calm and 'un touristic' in a good way.”",
+        "author": "Kaya"
+      },
+      {
+        "text": "“Absolutely amazing place to eat! Such a relief to find it here, in Bar. Delicious food, pleasant music and atmosphere, everything is perfect. Wish them all the best luck❤️”",
+        "author": "Алиса Пашпекина"
+      },
+      {
+        "text": "“I'm completely impressed with the service, the atmosphere, the food is the best I've ever tried 👌🌱😋”",
+        "author": "Nataša Vukićević"
+      }
+    ]
+  },
+  "jobs": {
+    "title": "Job openings",
+    "description": "We have two job openings: <strong>Healthy Plant-based Chef</strong> & <strong>Restaurant Assistant</strong><br /><br />",
+    "positions": [
+      {
+        "title": "Position: Healthy Plant-based Chef",
+        "responsibilities": [
+          "Daily Food and Drinks Preparation",
+          "Supply Management",
+          "Food presentation and decoration",
+          "Pricing and Labeling",
+          "Menu Management"
+        ],
+        "profile": {
+          "title": "Required Profile",
+          "items": [
+            "Healthy Plant-based lifestyle",
+            "Experience in plant-based restauration, healthy vegan and raw food preparation",
+            "Kitchen organization skills",
+            "Bilingual: English and Montenegrin (Extra + for Russian)"
+          ]
+        }
+      },
+      {
+        "title": "Position: Restaurant Assistant",
+        "responsibilities": [
+          "Restaurant House-keeping",
+          "Assisting in supply management and preparation of ingredients for the menu",
+          "Assisting in Drinks preparation and Homemade Products preparation",
+          "Assisting in Pricing and Labeling of the shop items",
+          "Internal daily accounting management"
+        ],
+        "profile": {
+          "title": "Required Profile",
+          "items": [
+            "House-keeping Experience",
+            "Organization skills",
+            "Healthy Vegan or Ethical Vegetarian",
+            "Basic Plant-based Food & Drinks preparation experience",
+            "Basic accounting skills",
+            "Bilingual: English and Montenegrin (Extra + for Russian)"
+          ]
+        }
+      }
+    ],
+    "why_work_with_us": {
+      "title": "Why Work with Us?",
+      "items": [
+        "To help us make Bar a healthier and more conscious town",
+        "To inspire people to make better choices for their health and the environment",
+        "To educate and raise awareness about the importance of a plant-based diet",
+        "To remind people about what is real food and our connection to Mother Earth"
+      ]
+    },
+    "about_company": {
+      "title": "About our Company",
+      "description": [
+        "Mama Nature is an organic plant-based restaurant and store offering high quality delicious foods and drinks made with whole, unprocessed, gluten-free and sugar-free ingredients. We aim to be as local, seasonal, and eco-friendly as possible.",
+        "Mama Nature’s mission is to offer and remind people about real food and our connection to Mother Nature, gather a conscious community around health and well-being, and inspire people to make better choices for themselves and for the environment.",
+        "Working at Mama Nature is not for everyone. It requires individuals who have impeccable integrity, truthfulness, healthy life values, a growth mindset, a service mindset, who are solution-focused, and who have a great ability to go through challenges and issues in a positive manner.",
+        "If you think you could be a fit:",
+        "Send your Resume to <a href=\"mailto:mama.nature.mne@gmail.com\">mama.nature.mne&#64;gmail.com</a>"
+      ]
+    }
+  },
+  "about": {
+    "title": "Our Story",
+    "description": [
+      "In the heart of Bar, Montenegro, Mama Nature brings healing and nourishing plant-based cuisine to life. We celebrate the bounty of nature with locally sourced organic ingredients and conscious cooking.",
+      "Our Chef Myriam Bakhti, also known as Raw Mama Nature, have for many years taught online workshops on gourmet raw plant-based cuisine, and authored books like 'Easy Recipies for Beginners', 'The Raw Vegan Bread Book' and 'Sweet Life'.",
+      "Myriam decided that it was time to open a restaurant where she could share her passion for healthy food with the world.",
+      "If you already enjoy plant-based cuisine or are curious to try, we would love to cook for you.",
+      "At Mama Nature, we offer a variety of services to enhance your dining experience. From private dining events to catering services, we are here to make your special occasions memorable. Our team is dedicated to providing exceptional service and creating a warm and welcoming atmosphere for all our guests."
+    ]
+  },
+  "contact": {
+    "title": "Visit Us",
+    "info": [
+      "<a class=\"link\" href=\"https://maps.app.goo.gl/bDuU5szrQWwG9WfV7\" target=\"_blank\"><i class=\"fas fa-map-marker-alt\"></i> Maršala Tita, Bar 85000, Montenegro</a>",
+      "<i class=\"far fa-clock\"></i> Tue-Sun: 09:00 - 18:00 (TEMPORARILY CLOSED!)",
+      "<a class=\"link\" href=\"mailto:mama.nature.mne@gmail.com\" target=\"_blank\"><i class=\"fa fa-envelope\"></i> E-mail us</a>",
+      "<a class=\"link\" href=\"https://www.instagram.com/mama.nature.mne/\" target=\"_blank\"><i class=\"fab fa-instagram\"></i> Follow us on Instagram</a>"
+    ]
+  },
+  "footer": {
+    "text": "&copy; 2024-2025 Mama Nature | Organic Plant-based Restaurant"
+  }
+}

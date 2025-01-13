@@ -1,0 +1,150 @@
+{
+  "header": {
+    "nav": {
+      "menu": "Meny",
+      "jobs": "Jobber",
+      "about": "Om oss",
+      "contact": "Plassering",
+      "instagram": "Instagram"
+    },
+    "hero": {
+      "welcome": "Velkommen til Mama Nature",
+      "description": "Økologisk plantebasert restaurant ved Adriaterhavet (midlertidig stengt)"
+    }
+  },
+  "menu": {
+    "title": "Dagens spesialiteter",
+    "description": "Vi har noe nytt på menyen hver dag. Dagens varme og dagens rå er spesialretter som endres daglig.",
+    "items": {
+      "warm": "Dagens varme",
+      "raw": "Dagens rå",
+      "drink": "Dagens drikke",
+      "porridge": "Grøt",
+      "desserts": "Desserter",
+      "shakes": "Shakes",
+      "superfood_latte": "Superfood latte",
+      "juice": "Juice",
+      "hot_drinks": "Varme drikker",
+      "coffee": "Kaffe",
+      "herbal_teas": "Lokale urteteer",
+      "tea_blends": "Te-blandinger",
+      "homemade_products": "Hjemmelagde produkter",
+      "raw_vegan": "Alt rått, vegansk, glutenfritt, sukkerfritt, 100% økologisk"
+    }
+  },
+  "carousel": {
+    "title": "Fotogalleri"
+  },
+  "testimonials": {
+    "title": "Kundeuttalelser",
+    "items": [
+      {
+        "text": "“De rå kakene var deilige; luftige og saftige. Alt i alt anbefaler jeg å besøke Mama Nature for deres deilige kaker og eksepsjonelle ferskenjuice.”",
+        "author": "Ludvig"
+      },
+      {
+        "text": "“Det beste stedet for et godt økologisk måltid, med en fantastisk person som lager mat til deg.”",
+        "author": "Geoffrey TOUCHE"
+      },
+      {
+        "text": "“Fantastisk mat - høy kvalitet og god smak. Atmosfæren er også unik, veldig rolig og 'ikke-turistisk' på en god måte.”",
+        "author": "Kaya"
+      },
+      {
+        "text": "“Absolutt fantastisk sted å spise! En slik lettelse å finne det her, i Bar. Deilig mat, hyggelig musikk og atmosfære, alt er perfekt. Ønsker dem all lykke❤️”",
+        "author": "Алиса Пашпекина"
+      },
+      {
+        "text": "“Jeg er helt imponert over servicen, atmosfæren, maten er den beste jeg noen gang har prøvd 👌🌱😋”",
+        "author": "Nataša Vukićević"
+      }
+    ]
+  },
+  "jobs": {
+    "title": "Ledige stillinger",
+    "description": "Vi har to ledige stillinger: <strong>Sunn plantebasert kokk</strong> og <strong>Restaurantassistent</strong><br /><br />",
+    "positions": [
+      {
+        "title": "Stilling: Sunn plantebasert kokk",
+        "responsibilities": [
+          "Daglig mat- og drikkeforberedelse",
+          "Lagerstyring",
+          "Matpresentasjon og dekorasjon",
+          "Prissetting og merking",
+          "Menyhåndtering"
+        ],
+        "profile": {
+          "title": "Krav til profil",
+          "items": [
+            "Sunn plantebasert livsstil",
+            "Erfaring med plantebasert matlaging, sunn vegansk og rå matforberedelse",
+            "Organisasjonsevner på kjøkkenet",
+            "Tospråklig: engelsk og montenegrinsk (ekstra pluss for russisk)"
+          ]
+        }
+      },
+      {
+        "title": "Stilling: Restaurantassistent",
+        "responsibilities": [
+          "Restaurantvedlikehold",
+          "Hjelp med lagerstyring og forberedelse av ingredienser til menyen",
+          "Hjelp med drikkeforberedelse og hjemmelagde produkter",
+          "Hjelp med prissetting og merking av butikkvarer",
+          "Intern daglig regnskapsføring"
+        ],
+        "profile": {
+          "title": "Krav til profil",
+          "items": [
+            "Erfaring med husarbeid",
+            "Organisasjonsevner",
+            "Sunn veganer eller etisk vegetarianer",
+            "Grunnleggende erfaring med plantebasert mat- og drikkeforberedelse",
+            "Grunnleggende regnskapsferdigheter",
+            "Tospråklig: engelsk og montenegrinsk (ekstra pluss for russisk)"
+          ]
+        }
+      }
+    ],
+    "why_work_with_us": {
+      "title": "Hvorfor jobbe med oss?",
+      "items": [
+        "For å hjelpe oss med å gjøre Bar til en sunnere og mer bevisst by",
+        "For å inspirere folk til å ta bedre valg for helsen og miljøet",
+        "For å utdanne og øke bevisstheten om viktigheten av et plantebasert kosthold",
+        "For å minne folk på hva som er ekte mat og vår forbindelse til Moder Jord"
+      ]
+    },
+    "about_company": {
+      "title": "Om vårt selskap",
+      "description": [
+        "Mama Nature er en økologisk plantebasert restaurant og butikk som tilbyr høykvalitets deilige mat- og drikkevarer laget av hele, ubehandlede, glutenfrie og sukkerfrie ingredienser. Vi streber etter å være så lokale, sesongbaserte og miljøvennlige som mulig.",
+        "Mama Natures oppdrag er å tilby og minne folk på ekte mat og vår forbindelse til Moder Natur, samle et bevisst fellesskap rundt helse og velvære, og inspirere folk til å ta bedre valg for seg selv og for miljøet.",
+        "Å jobbe på Mama Nature er ikke for alle. Det krever individer som har upåklagelig integritet, sannferdighet, sunne livsverdier, en veksttankegang, en tjenestetankegang, som er løsningsorienterte og som har stor evne til å gå gjennom utfordringer og problemer på en positiv måte.",
+        "Hvis du tror du kan passe:",
+        "Send din CV til <a href=\"mailto:mama.nature.mne@gmail.com\">mama.nature.mne&#64;gmail.com</a>"
+      ]
+    }
+  },
+  "about": {
+    "title": "Vår historie",
+    "description": [
+      "I hjertet av Bar, Montenegro, bringer Mama Nature helbredende og nærende plantebasert mat til live. Vi feirer naturens rikdom med lokalt dyrkede økologiske ingredienser og bevisst matlaging.",
+      "Vår kokk Myriam Bakhti, også kjent som Raw Mama Nature, har i mange år holdt online workshops om gourmet rå plantebasert matlaging, og har skrevet bøker som 'Enkle oppskrifter for nybegynnere', 'Den rå veganske brødboken' og 'Søtt liv'.",
+      "Myriam bestemte seg for at det var på tide å åpne en restaurant hvor hun kunne dele sin lidenskap for sunn mat med verden.",
+      "Hvis du allerede nyter plantebasert mat eller er nysgjerrig på å prøve, vil vi gjerne lage mat for deg.",
+      "På Mama Nature tilbyr vi en rekke tjenester for å forbedre din spiseopplevelse. Fra private middager til catering-tjenester, er vi her for å gjøre dine spesielle anledninger minneverdige. Vårt team er dedikert til å gi eksepsjonell service og skape en varm og innbydende atmosfære for alle våre gjester."
+    ]
+  },
+  "contact": {
+    "title": "Besøk oss",
+    "info": [
+      "<a class=\"link\" href=\"https://maps.app.goo.gl/bDuU5szrQWwG9WfV7\" target=\"_blank\"><i class=\"fas fa-map-marker-alt\"></i> Maršala Tita, Bar 85000, Montenegro</a>",
+      "<i class=\"far fa-clock\"></i> Tir-Søn: 09:00 - 18:00 (MIDLERTIDIG STENGT!)",
+      "<a class=\"link\" href=\"mailto:mama.nature.mne@gmail.com\" target=\"_blank\"><i class=\"fa fa-envelope\"></i> Send oss en e-post</a>",
+      "<a class=\"link\" href=\"https://www.instagram.com/mama.nature.mne/\" target=\"_blank\"><i class=\"fab fa-instagram\"></i> Følg oss på Instagram</a>"
+    ]
+  },
+  "footer": {
+    "text": "&copy; 2024-2025 Mama Nature | Økologisk plantebasert restaurant"
+  }
+}
