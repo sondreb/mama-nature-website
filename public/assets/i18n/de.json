@@ -1,0 +1,150 @@
+{
+  "header": {
+    "nav": {
+      "menu": "Menü",
+      "jobs": "Jobs",
+      "about": "Über uns",
+      "contact": "Standort",
+      "instagram": "Instagram"
+    },
+    "hero": {
+      "welcome": "Willkommen bei Mama Nature",
+      "description": "Organisches pflanzenbasiertes Restaurant am Adriatischen Meer (vorübergehend geschlossen)"
+    }
+  },
+  "menu": {
+    "title": "Heutige Spezialitäten",
+    "description": "Wir haben jeden Tag etwas Neues auf der Speisekarte. Heutiges Warm/Toplo und Heutiges Roh/Sirov sind spezielle Gerichte, die täglich wechseln.",
+    "items": {
+      "warm": "Heutiges Warm/Toplo",
+      "raw": "Heutiges Roh/Sirov",
+      "drink": "Heutiges Getränk/Piće",
+      "porridge": "Brei / Kaša",
+      "desserts": "Desserts /Nachspeisen",
+      "shakes": "Shakes / Shakes",
+      "superfood_latte": "Superfood Latte",
+      "juice": "Saft /Säfte",
+      "hot_drinks": "Heiße Getränke / Heiße Getränke",
+      "coffee": "Kaffee / Kaffee",
+      "herbal_teas": "Lokale Kräutertees / Lokale Kräutertees",
+      "tea_blends": "Teemischungen / Teemischungen",
+      "homemade_products": "Hausgemachte Produkte",
+      "raw_vegan": "Alles roh, vegan, glutenfrei, zuckerfrei, 100% biologisch"
+    }
+  },
+  "carousel": {
+    "title": "Fotogalerie"
+  },
+  "testimonials": {
+    "title": "Kundenbewertungen",
+    "items": [
+      {
+        "text": "“Die rohen Kuchen waren köstlich; fluffig und saftig. Insgesamt empfehle ich einen Besuch bei Mama Nature für ihre leckeren Kuchen und den außergewöhnlichen Pfirsichsaft.”",
+        "author": "Ludvig"
+      },
+      {
+        "text": "“Der beste Ort für eine gute biologische Mahlzeit, mit einer erstaunlichen Person, die für Sie kocht.”",
+        "author": "Geoffrey TOUCHE"
+      },
+      {
+        "text": "“Tolles Essen - hohe Qualität und großartiger Geschmack. Die Atmosphäre ist auch einzigartig, sehr ruhig und 'untouristisch' im positiven Sinne.”",
+        "author": "Kaya"
+      },
+      {
+        "text": "“Absolut erstaunlicher Ort zum Essen! Eine solche Erleichterung, es hier in Bar zu finden. Köstliches Essen, angenehme Musik und Atmosphäre, alles ist perfekt. Ich wünsche ihnen viel Glück❤️”",
+        "author": "Алиса Пашпекина"
+      },
+      {
+        "text": "“Ich bin völlig beeindruckt von dem Service, der Atmosphäre, das Essen ist das beste, das ich je probiert habe 👌🌱😋”",
+        "author": "Nataša Vukićević"
+      }
+    ]
+  },
+  "jobs": {
+    "title": "Stellenangebote",
+    "description": "Wir haben zwei Stellenangebote: <strong>Gesunder pflanzenbasierter Koch</strong> & <strong>Restaurantassistent</strong><br /><br />",
+    "positions": [
+      {
+        "title": "Position: Gesunder pflanzenbasierter Koch",
+        "responsibilities": [
+          "Tägliche Zubereitung von Speisen und Getränken",
+          "Bestandsverwaltung",
+          "Präsentation und Dekoration von Speisen",
+          "Preisgestaltung und Etikettierung",
+          "Menüverwaltung"
+        ],
+        "profile": {
+          "title": "Erforderliches Profil",
+          "items": [
+            "Gesunder pflanzenbasierter Lebensstil",
+            "Erfahrung in der pflanzenbasierten Gastronomie, gesunde vegane und rohe Lebensmittelzubereitung",
+            "Organisationsfähigkeiten in der Küche",
+            "Zweisprachig: Englisch und Montenegrinisch (Extra + für Russisch)"
+          ]
+        }
+      },
+      {
+        "title": "Position: Restaurantassistent",
+        "responsibilities": [
+          "Restaurant-Hauswirtschaft",
+          "Unterstützung bei der Bestandsverwaltung und Vorbereitung der Zutaten für das Menü",
+          "Unterstützung bei der Zubereitung von Getränken und hausgemachten Produkten",
+          "Unterstützung bei der Preisgestaltung und Etikettierung der Ladenartikel",
+          "Interne tägliche Buchhaltungsverwaltung"
+        ],
+        "profile": {
+          "title": "Erforderliches Profil",
+          "items": [
+            "Erfahrung in der Hauswirtschaft",
+            "Organisationsfähigkeiten",
+            "Gesunder Veganer oder ethischer Vegetarier",
+            "Grundlegende Erfahrung in der Zubereitung von pflanzenbasierten Lebensmitteln und Getränken",
+            "Grundlegende Buchhaltungsfähigkeiten",
+            "Zweisprachig: Englisch und Montenegrinisch (Extra + für Russisch)"
+          ]
+        }
+      }
+    ],
+    "why_work_with_us": {
+      "title": "Warum mit uns arbeiten?",
+      "items": [
+        "Um uns zu helfen, Bar zu einer gesünderen und bewussteren Stadt zu machen",
+        "Um Menschen zu inspirieren, bessere Entscheidungen für ihre Gesundheit und die Umwelt zu treffen",
+        "Um zu informieren und das Bewusstsein für die Bedeutung einer pflanzenbasierten Ernährung zu schärfen",
+        "Um Menschen daran zu erinnern, was echte Nahrung ist und unsere Verbindung zur Mutter Erde"
+      ]
+    },
+    "about_company": {
+      "title": "Über unser Unternehmen",
+      "description": [
+        "Mama Nature ist ein organisches pflanzenbasiertes Restaurant und Geschäft, das hochwertige, köstliche Speisen und Getränke aus ganzen, unverarbeiteten, glutenfreien und zuckerfreien Zutaten anbietet. Wir streben danach, so lokal, saisonal und umweltfreundlich wie möglich zu sein.",
+        "Die Mission von Mama Nature ist es, den Menschen echte Nahrung und unsere Verbindung zur Mutter Natur anzubieten und sie daran zu erinnern, eine bewusste Gemeinschaft rund um Gesundheit und Wohlbefinden zu versammeln und die Menschen zu inspirieren, bessere Entscheidungen für sich selbst und die Umwelt zu treffen.",
+        "Die Arbeit bei Mama Nature ist nicht für jedermann. Es erfordert Personen, die über einwandfreie Integrität, Wahrhaftigkeit, gesunde Lebenswerte, eine Wachstumsmentalität, eine Dienstleistungsmentalität verfügen, lösungsorientiert sind und eine große Fähigkeit haben, Herausforderungen und Probleme auf positive Weise zu bewältigen.",
+        "Wenn Sie denken, dass Sie passen könnten:",
+        "Senden Sie Ihren Lebenslauf an <a href=\"mailto:mama.nature.mne@gmail.com\">mama.nature.mne&#64;gmail.com</a>"
+      ]
+    }
+  },
+  "about": {
+    "title": "Unsere Geschichte",
+    "description": [
+      "Im Herzen von Bar, Montenegro, bringt Mama Nature heilende und nährende pflanzenbasierte Küche zum Leben. Wir feiern die Fülle der Natur mit lokal angebauten Bio-Zutaten und bewusstem Kochen.",
+      "Unsere Köchin Myriam Bakhti, auch bekannt als Raw Mama Nature, hat viele Jahre lang Online-Workshops über Gourmet-Rohkostküche gehalten und Bücher wie 'Einfache Rezepte für Anfänger', 'Das Rohkost-Brotbuch' und 'Süßes Leben' geschrieben.",
+      "Myriam entschied, dass es an der Zeit war, ein Restaurant zu eröffnen, in dem sie ihre Leidenschaft für gesunde Ernährung mit der Welt teilen konnte.",
+      "Wenn Sie bereits pflanzenbasierte Küche genießen oder neugierig sind, sie auszuprobieren, würden wir gerne für Sie kochen.",
+      "Bei Mama Nature bieten wir eine Vielzahl von Dienstleistungen an, um Ihr kulinarisches Erlebnis zu verbessern. Von privaten Abendessen bis hin zu Catering-Services sind wir hier, um Ihre besonderen Anlässe unvergesslich zu machen. Unser Team ist bestrebt, außergewöhnlichen Service zu bieten und eine warme und einladende Atmosphäre für alle unsere Gäste zu schaffen."
+    ]
+  },
+  "contact": {
+    "title": "Besuchen Sie uns",
+    "info": [
+      "<a class=\"link\" href=\"https://maps.app.goo.gl/bDuU5szrQWwG9WfV7\" target=\"_blank\"><i class=\"fas fa-map-marker-alt\"></i> Maršala Tita, Bar 85000, Montenegro</a>",
+      "<i class=\"far fa-clock\"></i> Di-So: 09:00 - 18:00 (VORÜBERGEHEND GESCHLOSSEN!)",
+      "<a class=\"link\" href=\"mailto:mama.nature.mne@gmail.com\" target=\"_blank\"><i class=\"fa fa-envelope\"></i> E-Mail senden</a>",
+      "<a class=\"link\" href=\"https://www.instagram.com/mama.nature.mne/\" target=\"_blank\"><i class=\"fab fa-instagram\"></i> Folgen Sie uns auf Instagram</a>"
+    ]
+  },
+  "footer": {
+    "text": "&copy; 2024-2025 Mama Nature | Organisches pflanzenbasiertes Restaurant"
+  }
+}
