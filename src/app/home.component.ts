@@ -37,8 +37,9 @@ export class HomeComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-    const browserLang = this.translate.getBrowserLang() || 'en';
-    this.setLanguage(browserLang.match(/en|me|ru|no/) ? browserLang : 'en');
+    // const browserLang = this.translate.getBrowserLang() || 'en';
+    // this.setLanguage(browserLang.match(/en|me|ru|no/) ? browserLang : 'en');
+    this.setLanguage('en');
 
     const faders = document.querySelectorAll<HTMLElement>('.fade-in');
     const staggerElements = document.querySelectorAll<HTMLElement>('.stagger');
