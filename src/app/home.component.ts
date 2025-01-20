@@ -16,6 +16,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   private currentImageIndex: number = 0;
   private touchStartX: number = 0;
   private touchEndX: number = 0;
+  private carouselInitialized = false;
 
   constructor(private translate: TranslateService) {
     const appearOptions: IntersectionObserverInit = {
@@ -53,7 +54,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     });
 
     this.initializeMobileMenu();
-    this.initializeCarousel();
+    this.setupCarouselObserver(); // Replace initializeCarousel() with this
   }
 
   ngOnDestroy(): void {
@@ -95,6 +96,26 @@ export class HomeComponent implements OnInit, OnDestroy {
         document.body.style.overflow = '';
       });
     });
+  }
+
+  private setupCarouselObserver(): void {
+    const carouselSection = document.querySelector('#gallery');
+    if (!carouselSection) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && !this.carouselInitialized) {
+            this.initializeCarousel();
+            this.carouselInitialized = true;
+            observer.disconnect(); // Stop observing once initialized
+          }
+        });
+      },
+      { threshold: 0.1 } // Start loading when 10% of the gallery is visible
+    );
+
+    observer.observe(carouselSection);
   }
 
   private initializeCarousel(): void {
@@ -161,7 +182,7 @@ export class HomeComponent implements OnInit, OnDestroy {
         (this.currentImageIndex + 1) %
         document.querySelectorAll<HTMLElement>('.carousel-image').length;
       this.showImage(this.currentImageIndex);
-    }, 5000);
+    }, 2500);
   }
 
   private showImage(index: number): void {
