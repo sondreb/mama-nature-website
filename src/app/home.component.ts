@@ -109,21 +109,16 @@ export class HomeComponent implements OnInit, OnDestroy {
 
     if (!carousel || !prevButton || !nextButton || images.length === 0) return;
 
-    const showImage = (index: number): void => {
-      images.forEach((img) => img.classList.remove('active'));
-      images[index].classList.add('active');
-    };
-
     const nextImage = (): void => {
       this.currentImageIndex = (this.currentImageIndex + 1) % images.length;
-      showImage(this.currentImageIndex);
+      this.showImage(this.currentImageIndex);
       this.resetTimer();
     };
 
     const prevImage = (): void => {
       this.currentImageIndex =
         (this.currentImageIndex - 1 + images.length) % images.length;
-      showImage(this.currentImageIndex);
+      this.showImage(this.currentImageIndex);
       this.resetTimer();
     };
 
@@ -152,6 +147,8 @@ export class HomeComponent implements OnInit, OnDestroy {
     prevButton.addEventListener('click', prevImage);
     nextButton.addEventListener('click', nextImage);
 
+    // Initial preload of the next image
+    this.preloadImage(1);
     this.resetTimer();
   }
 
@@ -163,9 +160,28 @@ export class HomeComponent implements OnInit, OnDestroy {
       this.currentImageIndex =
         (this.currentImageIndex + 1) %
         document.querySelectorAll<HTMLElement>('.carousel-image').length;
-      const images = document.querySelectorAll<HTMLElement>('.carousel-image');
-      images.forEach((img) => img.classList.remove('active'));
-      images[this.currentImageIndex].classList.add('active');
+      this.showImage(this.currentImageIndex);
     }, 5000);
+  }
+
+  private showImage(index: number): void {
+    const images = document.querySelectorAll<HTMLElement>('.carousel-image');
+    images.forEach((img) => img.classList.remove('active'));
+    images[index].classList.add('active');
+    
+    // Preload adjacent images
+    this.preloadImage(index - 1);  // Previous image
+    this.preloadImage(index + 1);  // Next image
+    this.preloadImage(index + 2);  // Next + 1 image
+  }
+
+  private preloadImage(index: number): void {
+    const images = document.querySelectorAll<HTMLElement>('.carousel-image');
+    if (index < 0 || index >= images.length) return;
+    
+    const img = images[index] as HTMLImageElement;
+    if (img.dataset['src'] && !img.src) {
+      img.src = img.dataset['src'];
+    }
   }
 }
