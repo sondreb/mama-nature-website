@@ -15,6 +15,7 @@
   
   html,
   body {
+    font-size: 16px;
     overscroll-behavior: none;
   }
   
@@ -208,7 +209,7 @@
   
   .contact-info {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.2em;
   }
   
   footer {
@@ -389,6 +390,14 @@
   }
   
   @media (max-width: 600px) {
+    body {
+      font-size: 0.9em;
+    }
+
+    .contact-info {
+      font-size: 1.0em;
+    }
+
     .container {
       padding: 0 1rem;
     }
@@ -401,3 +410,5 @@
       padding: 1rem;
     }
   }
+
+  
