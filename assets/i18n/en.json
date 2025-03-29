@@ -9,7 +9,7 @@
     },
     "hero": {
       "welcome": "Welcome to Mama Nature",
-      "description": "Organic Plant-based Restaurant by the Adriatic Sea(temporarily closed)"
+      "description": "Organic Plant-based Restaurant by the Adriatic Sea"
     }
   },
   "menu": {
@@ -139,7 +139,7 @@
     "title": "Visit Us",
     "info": [
       "<a class=\"link\" href=\"https://maps.app.goo.gl/bDuU5szrQWwG9WfV7\" target=\"_blank\"><i class=\"fas fa-map-marker-alt\"></i> Maršala Tita, Bar 85000, Montenegro</a>",
-      "<i class=\"far fa-clock\"></i> Tue-Sun: 09:00 - 18:00 (TEMPORARILY CLOSED!)",
+      "<i class=\"far fa-clock\"></i> Tue-Sun: 09:00 - 18:00",
       "<a class=\"link\" href=\"mailto:mamanature.mne@gmail.com\" target=\"_blank\"><i class=\"fa fa-envelope\"></i> E-mail us</a>",
       "<a class=\"link\" href=\"https://www.instagram.com/mama.nature.mne/\" target=\"_blank\"><i class=\"fab fa-instagram\"></i> Follow us on Instagram</a>"
     ]
